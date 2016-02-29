@@ -37,5 +37,23 @@
             en>Goodbye!]
             A((HI))
         </div>
+        <div class="mermaid">
+            gitGraph
+            options
+            {
+                "nodeSpacing": 150,
+                "nodeRadius": 10
+            }
+            end
+            commit
+            branch newbranch
+            checkout newbranch
+            commit
+            commit
+            checkout main
+            commit
+            commit
+            merge newbranch
+        </div>
     </body>
 </html>
