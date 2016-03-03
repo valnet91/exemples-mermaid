@@ -100,3 +100,13 @@ a:hover {
 #sidebar hr {
     border-color: var(--MENU-SECTION-HR-color);
 }
+.mermaid{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.myClass > rect {
+    fill: #ff0000 !important;
+    color: #ff0000 !important;
+    font-size: 200px !important;
+}
